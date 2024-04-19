@@ -5,7 +5,7 @@ This repository contains scripts to produce a 3D visualization of a Microscale M
 
 ## Producing a Movie
 
-The scripts need to be run in Blender. They have to be copied to Blender **scripts** tab.
+The scripts need to be run in Blender. They have to be copied to Blender's **scripts** tab.
 
 Figure x gives a general overview of the steps required to create a movie from a dataset. The dataset needs to be placed into the `data` folder. An example dataset can be found under `data/example`.
 
