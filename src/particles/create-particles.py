@@ -109,7 +109,7 @@ def create_sphere(fields):
 
 
 frame = 1
-file_path = os.environ['DATA_LOCATION'] + "particles/particles-" + str(frame) + ".csv"
+file_path = os.environ['DATA_LOCATION'] + "/particles/particles-" + str(frame) + ".csv"
 while os.path.exists(file_path):
     print('loading ' + file_path)
     scene.frame_set(frame)
@@ -118,4 +118,4 @@ while os.path.exists(file_path):
         if "particle-" + str(row["id"]) not in bpy.data.objects:
             create_sphere(row)
     frame += 1
-    file_path = os.environ['DATA_LOCATION'] + "particles/particles-" + str(frame) + ".csv"
+    file_path = os.environ['DATA_LOCATION'] + "/particles/particles-" + str(frame) + ".csv"

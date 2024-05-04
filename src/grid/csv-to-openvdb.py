@@ -60,10 +60,10 @@ def create_grid(Volume, i):
     )
     grid.gridClass = openvdb.GridClass.FOG_VOLUME
     grid.name = "density"
-    openvdb.write(os.environ['DATA_LOCATION'] + "grid-" + i + ".vdb", grid)
+    openvdb.write(os.environ['DATA_LOCATION'] + "/grid/grid-" + i + ".vdb", grid)
 
 
-file_path = os.environ['DATA_LOCATION'] + "grid-1.csv"
+file_path = os.environ['DATA_LOCATION'] + "/grid/grid-1.csv"
 i = 1
 j = 1
 highest_concentration = 0
@@ -83,7 +83,7 @@ while os.path.exists(file_path):
             if row["concentration"] < lowest_concentration:
                 lowest_concentration = row["concentration"]
     i += 1
-    file_path = os.environ['DATA_LOCATION'] + "grid/grid-" + str(i) + ".csv"
+    file_path = os.environ['DATA_LOCATION'] + "/grid/grid-" + str(i) + ".csv"
     print(
         "highest_concentration: "
         + str(highest_concentration)
@@ -91,11 +91,11 @@ while os.path.exists(file_path):
         + str(lowest_concentration)
     )
 
-file_path = os.environ['DATA_LOCATION'] + "grid/grid-1.csv"
+file_path = os.environ['DATA_LOCATION'] + "/grid/grid-1.csv"
 while os.path.exists(file_path):
     print('loading ' + file_path)
     Volume = load_volume(file_path, highest_concentration,
                          lowest_concentration)
     create_grid(Volume, str(j))
     j += 1
-    file_path = os.environ['DATA_LOCATION'] + "grid/grid-" + str(j) + ".csv"
+    file_path = os.environ['DATA_LOCATION'] + "/grid/grid-" + str(j) + ".csv"

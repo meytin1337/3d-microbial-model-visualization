@@ -77,11 +77,11 @@ def create_frame(theta, phi, coordinates, diameter, frame):
     camera_object.keyframe_insert(data_path="rotation_euler", index=-1)
 
 
-file_path = os.environ["DATA_LOCATION"] + "particles/particles-1.csv"
+file_path = os.environ["DATA_LOCATION"] + "/particles/particles-1.csv"
 frame = 1
 while os.path.exists(file_path):
     data = load_data_from_csv(file_path, frame)
     frame += 1
     file_path = os.environ["DATA_LOCATION"] + \
-        "particles/particles-" + str(frame) + ".csv"
+        "/particles/particles-" + str(frame) + ".csv"
     print("loading: " + file_path)

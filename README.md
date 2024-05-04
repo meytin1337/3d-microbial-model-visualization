@@ -9,7 +9,7 @@ The scripts need to be run in Blender. They have to be copied to Blender's **scr
 
 Figure x gives a general overview of the steps required to create a movie from a dataset. The dataset needs to be placed into the `data` folder. An example dataset can be found under `data/example`.
 
-All scripts have to be run with the `DATA_LOCATION` environment variable set to the data folder location. From a bash shell you can simply run `DATA_LOCATION=/path/to/data/folder/ blender`
+All scripts have to be run with the `DATA_LOCATION` environment variable set to the data folder location. From a bash shell you can simply run `DATA_LOCATION=/path/to/data/folder blender`
 
 ## Overview of the Scripts
 

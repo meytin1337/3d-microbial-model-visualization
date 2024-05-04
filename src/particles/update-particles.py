@@ -135,7 +135,7 @@ def update_sphere(particle, sphere, transformations, frame):
 
 frame = 1
 file_path = os.environ["DATA_LOCATION"] + \
-    "particles/particles-" + str(frame) + ".csv"
+    "/particles/particles-" + str(frame) + ".csv"
 transformations = []
 while os.path.exists(file_path):
     print("loading " + file_path)
@@ -172,5 +172,5 @@ while os.path.exists(file_path):
     frame += 1
     file_path = (
         os.environ["DATA_LOCATION"] +
-        "particles/particles-" + str(frame) + ".csv"
+        "/particles/particles-" + str(frame) + ".csv"
     )
