@@ -13,4 +13,4 @@ bpy.context.scene.render.image_settings.file_format = 'FFMPEG'
 
 bpy.data.worlds["World"].node_tree.nodes["Background"].inputs[0].default_value = (0, 0, 0, 1)
 
-bpy.context.scene.render.filepath = os.environ['DATA_LOCATION']
+bpy.context.scene.render.filepath = os.environ['DATA_LOCATION'] + "/../../output/"
