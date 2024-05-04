@@ -27,10 +27,10 @@ color_ramp_node.color_ramp.interpolation = "CONSTANT"
 color_ramp_elements = color_ramp_node.color_ramp.elements
 # these values work with the example data
 # but would need to be adjusted for other data
-new_element = color_ramp_elements.new(0.055)
+new_element = color_ramp_elements.new(0.22)
 new_element.color = (0.32, 0.166, 0, 1.0)
 color_ramp_elements[2].color = (0.35, 0.087, 0, 1.0)
-color_ramp_elements[2].position = 0.15
+color_ramp_elements[2].position = 0.27
 
 volume_node.inputs["Density"].default_value = 0.0
 
