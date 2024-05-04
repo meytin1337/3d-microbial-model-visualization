@@ -65,12 +65,12 @@ def create_frame(i):
 
 
 index = 1
-file_path = os.environ['DATA_LOCATION'] + "grid/grid-" + str(index) + ".vdb"
+file_path = os.environ['DATA_LOCATION'] + "/grid/grid-" + str(index) + ".vdb"
 while os.path.exists(file_path):
     print('loading ' + file_path)
     create_grid(file_path, index)
     index += 1
-    file_path = os.environ['DATA_LOCATION'] + "grid/grid-" + str(index) + ".vdb"
+    file_path = os.environ['DATA_LOCATION'] + "/grid/grid-" + str(index) + ".vdb"
 
 
 frame = 1
