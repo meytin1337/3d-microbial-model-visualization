@@ -14,6 +14,11 @@ All scripts have to be run with the `DATA_LOCATION` environment variable set to 
 ![image](https://github.com/meytin1337/3d-microbial-model-visualization/assets/15246633/cb76cee4-3f5c-477e-afaa-c168dcbf52a6)
 
 
+
+https://github.com/meytin1337/3d-microbial-model-visualization/assets/15246633/7a6613c0-5b54-458d-885d-98df880c17d8
+
+
+
 ## Overview of the Scripts
 
 #### Csv to OpenVDB
