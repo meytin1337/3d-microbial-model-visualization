@@ -14,6 +14,12 @@ The scripts need to be run in Blender. They have to be copied to Blender's **scr
 The dataset needs to be placed into the `data` folder. An example dataset can be found under `data/example`.
 All scripts have to be run with the `DATA_LOCATION` environment variable set to the data folder location. From a bash shell you can simply run `DATA_LOCATION=/path/to/data/folder blender`
 
+## Updating the thresholds for coloring regions with increased DOM
+
+For different datasets the distribution of DOM concentrations will vary and so the thresholds for coloring regions with increased DOM concentrations need to be adjusted.
+The video below is a tutorial on how to adjust these thresholds.
+
+https://github.com/meytin1337/3d-microbial-model-visualization/assets/15246633/6444ef13-f9d2-43cd-9ea8-854510ff3fc7
 
 ## Overview of the Scripts
 
