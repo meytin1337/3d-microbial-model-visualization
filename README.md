@@ -7,16 +7,15 @@ This repository contains scripts to produce a 3D visualization of a Microscale M
 
 The scripts need to be run in Blender. They have to be copied to Blender's **scripts** tab.
 
-In the picture below you can see a general overview of the steps required to create a movie from a dataset. The dataset needs to be placed into the `data` folder. An example dataset can be found under `data/example`.
-
-All scripts have to be run with the `DATA_LOCATION` environment variable set to the data folder location. From a bash shell you can simply run `DATA_LOCATION=/path/to/data/folder blender`
-
-![image](https://github.com/meytin1337/3d-microbial-model-visualization/assets/15246633/cb76cee4-3f5c-477e-afaa-c168dcbf52a6)
-
-
+The video below is a tutorial on how to create a movie using the scripts.
 
 https://github.com/meytin1337/3d-microbial-model-visualization/assets/15246633/7a6613c0-5b54-458d-885d-98df880c17d8
 
+The dataset needs to be placed into the `data` folder. An example dataset can be found under `data/example`.
+All scripts have to be run with the `DATA_LOCATION` environment variable set to the data folder location. From a bash shell you can simply run `DATA_LOCATION=/path/to/data/folder blender`
+An overview of the process of creating a video can be seen in the following picture: 
+
+![image](https://github.com/meytin1337/3d-microbial-model-visualization/assets/15246633/cb76cee4-3f5c-477e-afaa-c168dcbf52a6)
 
 
 ## Overview of the Scripts
