@@ -23,9 +23,13 @@ https://github.com/meytin1337/3d-microbial-model-visualization/assets/15246633/6
 
 ## Overview of the Scripts
 
+#### Blender settings
+
+The script `blender-settings.py` is used to change a few render settings in Blender and remove unused objects.
+
 #### Csv to OpenVDB
 
-The script `src/grid/csv-to-openvdb.py` is used to transform the grid data to the openVDB data format. It can be run 
+The script `src/grid/csv-to-openvdb.py` is used to transform the grid data to the openVDB data format.
 
 #### Import OpenVDB
 
